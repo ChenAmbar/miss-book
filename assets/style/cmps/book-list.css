@@ -1,0 +1,35 @@
+.book-list {
+    padding: 15px 0 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.book-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.book-list h2{
+    background-color: var(--clr1);
+    width: 100%;
+    border-radius: 8px;
+}
+.book-list h4{
+    color: var(--clr1);
+}
+
+.book-preview h4.red{
+    color: red;
+}
+
+.book-preview h4.green{
+    color: green;
+}
+
+.book-index h4{
+    color: var(--clr1);
+}
